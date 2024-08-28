@@ -5,11 +5,13 @@
 
 #inicio{
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color:#d3b8e1;
+    height: 350px;
+    margin-bottom: -2%;
 }
 
 .menu{
-    background-color: rgb(237, 190, 120);
+    background-color: #AC83D6;
     padding: 20px;
 }
 
@@ -26,16 +28,15 @@
 
 .menu-links a{
     text-decoration: none;
-    color: black;
-    background-color:white;
+    color: #fff;
+    background-color:#955FBE;
     border-radius: 20px;
     font-size: 20px;
     padding: 10px;
 }
 .presentacion {
-    align-items: center;
-    margin: 20px 10% auto;
-    width: auto;
+    margin: 20px 10%;
+    width: 500px;
     word-wrap: break-word;
 }
 
@@ -43,19 +44,65 @@
     margin: 20px;
     width: 500px;
     flex: 1;
+    
+}
+.img-person{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: -160px 60%;
+    margin-bottom: 1.5rem;
+    background-color: #A420BE;
+    padding: 5px;
+}
+.persona{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+#conoceme{
+    background-color:#e6bce0;
+    height: 350px;
+    margin-bottom: -2%;
 }
 .cont-img{
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    margin: -200px 10%;
 }
 .img-desk {
-    margin-left: 60%;
-    margin-top: 10px;
     max-width: 300px;
 }
+.suptema{
+    margin: 20px 10px;
+    width: auto;
+    word-wrap: break-word;
+}
+.suptema h2{
+    margin: 0 60%;
+    width: 500px;
+    flex: 1;
+    margin-top: 20px;
+}
+.info-per{
+    width: 500px;
+    margin: 0 50%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#Trabajos{
+    background-color: #bbf9f9;
+    margin-bottom: -2%;
+}
+
+#contactame{
+    background-color: #dee4cd;
+}
 footer{
-    background-color: rgb(237, 190, 120);
+    background-color: #AC83D6;
     padding: 20px;
 }
 .social-icons{
