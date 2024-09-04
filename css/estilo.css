@@ -111,18 +111,18 @@ header{
     
 
 }
-#Trabajos{
+#servicios{
     padding: 20px 15px;
     background-color: #99e8e8;
     margin-bottom: -2%;
     height: 1000px;
     
 }
-#Trabajos h2{
-    margin: 20px 40%;
-    width: 200px;
+#servicios h2{
+    margin: 20px 35%;
+    width: 300px;
 }
-#Trabajos .fila {
+#servicios .fila {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -130,7 +130,7 @@ header{
     max-width: 1180px;
     margin: 30px auto;
 }
-.work{
+.servicios-intro{
     width: 520px;
     margin: 20px 30%;
     font-family: 'Times New Roman', Times, serif;
@@ -184,6 +184,55 @@ header{
     font-size: 14px;
     line-height: 22px;
 }
+
+#Trabajos{
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+#Trabajos .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}.proyecto{
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+.proyecto img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+.proyecto img:hover{
+    filter: grayscale(0);
+}
+.proyecto .info{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .8) ;
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: 0.5s;
+}
+.proyecto .info h4{
+    margin: 5px;
+    width: 400px;
+}
+.proyecto .info:hover{
+    opacity: 1;
+    bottom: 0;
+}
+
+
+
 #contactame{
     padding: 20px 15px;
     background-color: #dee4cd;
