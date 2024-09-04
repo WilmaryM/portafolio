@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    max-width: 1800px;
 }
 
 #inicio{
@@ -27,7 +28,7 @@ header{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 .menu-links li{
     margin: 0 10px;
@@ -40,6 +41,9 @@ header{
     border-radius: 20px;
     font-size: 20px;
     padding: 10px;
+}
+#icono-nav{
+    display: none;
 }
 .presentacion {
     margin: 10px 10%;
@@ -94,7 +98,7 @@ header{
     word-wrap: break-word;
 }
 .suptema h2{
-    margin: 10px  20%;
+    margin: 10px  35%;
     width: 500px;
     flex: 1;
     margin-top: 20px;
@@ -115,7 +119,7 @@ header{
     padding: 20px 15px;
     background-color: #99e8e8;
     margin-bottom: -2%;
-    height: 1000px;
+    max-width: 1800px;
     
 }
 #servicios h2{
@@ -290,4 +294,85 @@ footer{
 
 .social-icons i{
     margin: 0 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .menu{
+        display: none;
+    }
+    .menu.responsive {
+        display: block;
+        background-color: #955FBE;
+        width: 100%;
+        position:absolute;
+        top:48px;
+        left: 0px;
+        padding: 10px 0;
+    }
+    .menu.responsive.menu-links{
+        display: block !important;
+        text-align: center;
+    }
+    .menu.responsive.menu-links li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+        margin: 20px 80%;
+    }
+    #inicio{
+        padding: 50px 0;
+        display: block;
+    }
+    #inicio .img-person{
+        max-width: 200px;
+        width: 100px;
+        height: 100px;
+        margin: -200px 80%;
+    }
+    #inicio .img-person .persona{
+        width: 100px;
+        height: 100px;
+    }
+    #inicio .presentacion{
+        margin: 10px 5%;
+    }
+    #conoceme .info-per{
+        width: 400px;
+        margin: 10px 30%;
+    }
+    #conoceme .cont-img{
+        margin: -200px 1%;
+    }
+    #conoceme .img-desk{
+        width: 200px;
+    }
+    #servicios .suptema h2{
+        margin: 20px 20% ;
+    }
+    #servicios .servicios-intro{
+        margin: 20px 10%;
+    }
+    #servicios .fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #servicios .servicios{
+        width: 300px;
+        
+    }
+    #Trabajos .parrafo-info-trabajo{
+        width: 500px;
+        margin: 10px 20%;
+    }
+    #Trabajos .fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contactame .fila textarea{
+        width: 650px;
+    }
+    
 }
