@@ -5,4 +5,4 @@ function responsiveMenu(){
     }else{
         x.className = "";
     }
-}
+}document.getElementById("icono-nav").addEventListener("click", responsiveMenu);

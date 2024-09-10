@@ -297,6 +297,9 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
     .menu{
         display: none;
     }
@@ -305,16 +308,15 @@ footer{
         background-color: #955FBE;
         width: 100%;
         position:absolute;
-        top:48px;
-        left: 0px;
-        padding: 10px 0;
+        top:50px;
+        padding: 50px 0;
     }
     .menu.responsive.menu-links{
         display: block !important;
         text-align: center;
     }
     .menu.responsive.menu-links li{
-        margin: 5px 0;
+        margin: 20px 0;
     }
     #icono-nav{
         display: block;
@@ -375,4 +377,35 @@ footer{
         width: 650px;
     }
     
+}
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 500px;
+    }
+    #inicio{
+        max-width: 400px;
+        padding: 50px 0;
+        display: block;
+    }
+    #nav.responsive{
+        max-width: 100px;
+    }
+    .menu.responsive.menu-links{
+        display: block !important;
+        text-align: center;
+    }
+    .menu.responsive.menu-links li{
+        margin: 10px 0;
+    }
+    #icono-nav{
+        display: block;
+        margin: 20px 80%;
+    }
+    .presentacion{
+        max-width: 300px;
+    }
+    .presentacion p, h2,h4{
+        width: 200px;
+        font-size: 12px;
+    }
 }
