@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section id="inicio">
+        <header>
+            <div class="conte-header">
+                <nav id="nav" class=" menu">
+                    <ul id="links" class="menu-links">
+                        <li><a href="#inicio">inicio</a></li>
+                        <li><a href="#conoceme">Conoceme</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#Trabajos">Trabajos</a></li>
+                        <li><a href="#contactame">Colaboremos</a></li>
+                    </ul>
+                </nav>
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+            <div class="presentacion">
+            <h2>¡Hola! Soy Wilmary</h2> <p>"Una Diseñadora Web apasionada por la musica, enseñanza, moda y la aventura. 
+            Me encanta conectar con personas y crear un impacto positivo en el mundo. Mi enfoque es siempre optimista
+            y busco nuevas oportunidades para crecer y aprender."</p>
+            <h4>¡Explora mi portafolio y descubre cómo podemos colaborar juntos!</h4>
+            </div>
+            
+        <div class="img-person">
+            <img class="persona" src="/img/me.jpg" alt="foto de mi">
+        </div>
+    </section>
+
+    <section id="conoceme">
+     <div class="info-per">
+            <div class="suptema">
+                <h2>Quien soy?</h2>
+            </div>
+                <p> Desarrolladora web front-end con más de 2 años de experiencia 
+                    en la creación de interfaces de usuario intuitivas y atractivas. 
+                    Mis habilidades en HTML, CSS y JavaScript me permiten transformar 
+                    diseños en experiencias digitales excepcionales. Mi último proyecto, un Pokedex interactivo, 
+                    me permitió poner en práctica mis conocimientos en JavaScript para crear una experiencia 
+                    de usuario dinámica y envolvente. 
+                </p>
+            </div>   
+            
+            <div class="cont-img">
+            <img src="/img/2.png" alt="escritorio divertido" class="img-desk">
+        </div>
+        
+    </section>
+
+    <section id="servicios">
+            <div class="suptema">
+                <h2>¿Qué puedo hacer por ti? </h2>
+            </div>
+            <p class="servicios-intro">
+                Construyo sitios web que no solo se ven bien, sino que también funcionan a la perfección.
+                Mis servicios incluyen desarrollo web a medida, diseño responsive y optimización.
+            </p>
+            <div class="fila">
+
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+
+                </ul>
+                <p>Con mi experiencia en HTML, CSS y JavaScript, puedo construir sitios web desde cero o personalizar tu sitio web existente. 
+                    Creo soluciones web escalables y adaptables a cualquier dispositivo. Me enfoco en crear sitios web que sean intuitivos 
+                    y fáciles de usar para tus visitantes.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Trabajos">
+        <div class="suptema">
+            <h2>Creacion y diseño</h2>
+        </div>
+        <div class="parrafo-info-trabajo">
+            <p>"Mi portafolio es una muestra de mi capacidad para crear soluciones digitales personalizadas y atractivas.
+                Disfruto explorando nuevas tecnologías y dando vida a ideas innovadoras."</p>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="/img/Screenshot (86).png" alt="portada de pokedex">
+                    <div class="info">
+                        <h4>Pokédex Digital: ¡Atrapa la aventura! Explora un universo virtual lleno de criaturas increíbles, completa tu colección y descubre sus habilidades únicas. </h4>
+                        <p>Diseño web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactame">
+            <div class="suptema">
+                <h2>Trabajemos juntos</h2>
+            </div>
+            <div class="contei-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input id="input-name" type="text" placeholder="Escriba su nombre" class="input-mitad">
+                        
+                        <input id="gmail" type="email" placeholder="Escriba su Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <textarea name="mensaje" id="mensaje" cols="150" rows="1" placeholder="Hola, creo que necesitamos un diseño para nuestros productos en la Compañía X. ¿Cuándo puedes discutir esto?"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-submit">
+                </form>
+            </div>
+    </section>
+
+    <footer>
+        <p><h4>¿Te gustó lo que viste? ¡Mira lo que publico!</h4></p>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/tunombre"><i class="fa-brands fa-facebook" style="color: #fff;"></i></a></li>
+            <li><a href="https://www.instagram.com/tunombre"><i class="fab fa-instagram" style="color: #fff;"></i></a></li>
+            <li><a href="mailto:tuemail@ejemplo.com"><i class="fas fa-envelope" style="color: #fff;"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

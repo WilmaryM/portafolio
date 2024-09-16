@@ -1,0 +1,411 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 1800px;
+}
+
+#inicio{
+    padding: 100px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#d3b8e1;
+    height: 200px;
+    margin-bottom: -2%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+.menu{
+    background-color: #AC83D6;
+    padding: 20px;
+    
+}
+
+.menu-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu-links li{
+    margin: 0 10px;
+}
+
+.menu-links a{
+    text-decoration: none;
+    color: #fff;
+    background-color:#955FBE;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+#icono-nav{
+    display: none;
+}
+.presentacion {
+    margin: 10px 10%;
+    width: 520px;
+    word-wrap: break-word;
+    background-color: #c297e4;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.presentacion p, h2, h4 {
+    margin: 20px;
+    width: 500px;
+    flex: 1;
+    
+}
+.img-person{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: -230px 60%;
+    margin-bottom: 1.5rem;
+    background-color: #A420BE;
+    padding: 5px;
+}
+.persona{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+#conoceme{
+    padding: 20px 15px;
+    background-color:#e6bce0;
+    height: 350px;
+    margin-bottom: -2%;
+}
+.cont-img{
+    margin: -300px 10%;
+}
+.img-desk {
+    max-width: 300px;
+}
+.suptema{
+    margin: 20px 150px;
+    width: auto;
+    word-wrap: break-word;
+}
+.suptema h2{
+    margin: 10px  35%;
+    width: 500px;
+    flex: 1;
+    margin-top: 20px;
+}
+.info-per{
+    width: 550px;
+    height: 200px;
+    margin: 20px 50%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e799d6;
+    padding: 30px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    
+
+}
+#servicios{
+    padding: 20px 15px;
+    background-color: #99e8e8;
+    margin-bottom: -2%;
+    max-width: 1800px;
+    
+}
+#servicios h2{
+    margin: 20px 35%;
+    width: 300px;
+}
+#servicios .fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 30px auto;
+}
+.servicios-intro{
+    width: 520px;
+    margin: 20px 30%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #77d9d9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.servicios{
+    max-width: 350px;
+    background-color: #77d9d9;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+    width: 33.33%; 
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+.servicios:hover{
+    box-shadow:  5px 5px 10px #5b8383, -5px -5px 10px #84b8b8;
+}
+.fila .servicios h4{
+    font-size: 22px;
+    margin-bottom: 25px;
+    
+    
+}
+.servicios .icono{
+    
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #5b8383;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.servicios hr{
+    width: 200px;
+    margin: -22px 15px;
+    color: #5b8383;
+    margin-bottom: 25px;
+}
+.servicios ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.servicios p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#Trabajos{
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: auto;
+}
+#Trabajos .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}.proyecto{
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+.proyecto img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
+}
+.proyecto img:hover{
+    filter: grayscale(0);
+}
+.proyecto .info{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .8) ;
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: 0.5s;
+}
+.proyecto .info h4{
+    margin: 5px;
+    width: 400px;
+}
+.proyecto .info:hover{
+    opacity: 1;
+    bottom: 0;
+}
+
+
+
+#contactame{
+    padding: 20px 15px;
+    background-color: #dee4cd;
+    height: 400px;
+    margin-bottom: -2%;
+}
+#contactame h2{
+    margin: 20px 40%;
+    width: 200px;
+}
+.contei-form{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.fila{
+    margin-bottom: 15px;
+}
+.mitad{
+    display: flex;
+    justify-content: space-between;
+}
+.contei-form input, textarea{
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #e1ebc6;
+}
+.input-mitad{
+    width: 50%;
+}
+.input-full{
+    width: 100%;
+}
+.btn-submit{
+    display: block;
+    
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+
+footer{
+    background-color: #AC83D6;
+    padding: 20px;
+}
+.social-icons{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.social-icons i{
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
+    .menu{
+        display: none;
+    }
+    .menu.responsive {
+        display: block;
+        background-color: #955FBE;
+        width: 100%;
+        position:absolute;
+        top:50px;
+        padding: 50px 0;
+    }
+    .menu.responsive.menu-links{
+        display: block !important;
+        text-align: center;
+    }
+    .menu.responsive.menu-links li{
+        margin: 20px 0;
+    }
+    #icono-nav{
+        display: block;
+        margin: 20px 80%;
+    }
+    #inicio{
+        padding: 50px 0;
+        display: block;
+    }
+    #inicio .img-person{
+        max-width: 200px;
+        width: 100px;
+        height: 100px;
+        margin: -200px 80%;
+    }
+    #inicio .img-person .persona{
+        width: 100px;
+        height: 100px;
+    }
+    #inicio .presentacion{
+        margin: 10px 5%;
+    }
+    #conoceme .info-per{
+        width: 400px;
+        margin: 10px 30%;
+    }
+    #conoceme .cont-img{
+        margin: -200px 1%;
+    }
+    #conoceme .img-desk{
+        width: 200px;
+    }
+    #servicios .suptema h2{
+        margin: 20px 20% ;
+    }
+    #servicios .servicios-intro{
+        margin: 20px 10%;
+    }
+    #servicios .fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #servicios .servicios{
+        width: 300px;
+        
+    }
+    #Trabajos .parrafo-info-trabajo{
+        width: 500px;
+        margin: 10px 20%;
+    }
+    #Trabajos .fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contactame .fila textarea{
+        width: 650px;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    body{
+        max-width: 500px;
+    }
+    #inicio{
+        max-width: 400px;
+        padding: 50px 0;
+        display: block;
+    }
+    #nav.responsive{
+        max-width: 100px;
+    }
+    .menu.responsive.menu-links{
+        display: block !important;
+        text-align: center;
+    }
+    .menu.responsive.menu-links li{
+        margin: 10px 0;
+    }
+    #icono-nav{
+        display: block;
+        margin: 20px 80%;
+    }
+    .presentacion{
+        max-width: 300px;
+    }
+    .presentacion p, h2,h4{
+        width: 200px;
+        font-size: 12px;
+    }
+}
